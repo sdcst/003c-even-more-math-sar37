@@ -18,3 +18,20 @@ Enter actual : 14
 The percent difference is 16.67%
 ```
 '''
+question = "what is the expected number "
+e = input(question)
+e = float(e)
+
+question = " what is the actual number"
+a = input(question)
+a = float(a)
+
+d = e - a
+dp = d/e*100
+
+dp = round(dp,2)
+
+print(f"the percent difference is {dp}%")
+
+
+

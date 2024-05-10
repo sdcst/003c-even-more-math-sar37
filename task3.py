@@ -28,3 +28,21 @@ Your half perimeter is 14.5
 The area of your triangle is 29.342
 '''
 
+question = "what is the length of side a?"
+a = input(question)
+a = float(a)
+
+question = "what is the length of side b?"
+b = input(question)
+b = float(b)
+
+question = "what is the length of side c?"
+c = input(question)
+c = float(c)
+
+s = (a+b+c)/2
+
+A = (s*(s-a)*(s-b)*(s-c))**0.5
+A = round(A)
+
+print(f"the area of this triangle is")
